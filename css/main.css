@@ -1,0 +1,22 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+form {
+    width: 430px;
+    margin: 0 auto;
+}
+
+fieldset {
+    line-height: 2em;
+    border: none;
+}
+
+label {
+    float: left;
+    width: 140px;
+}
+
+input[type=button] {
+    margin-left: 140px;
+}
