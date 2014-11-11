@@ -2,7 +2,7 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-form {
+.content {
     width: 430px;
     margin: 0 auto;
 }

@@ -8,29 +8,34 @@
     <script type="application/javascript" src="js/app.js"></script>
 </head>
 <body>
-    <form>
-        <fieldset>
-            <label for="color">Color</label>
-            <input type="text" name="color" id="color"/>
-            <input type="color" class="color-selector"/>
-        </fieldset>
-        <fieldset>
-            <label for="bg-color">Background Color</label>
-            <input type="text" name="bg-color" id="bg-color"/>
-            <input type="color" class="color-selector"/>
-        </fieldset>
-        <fieldset>
-            <label for="opacity">Opacity</label>
-            <input name="opacity" type="number" id="opacity" min="0" max="1" step="0.05"/>
-        </fieldset>
-        <fieldset>
-            <label for="result">Original Color</label>
-            <input type="text" name="result" id="result" />
-            <input type="color"/>
-        </fieldset>
-        <fieldset>
-            <input type="button" id="calculate" value="Calculate"/>
-        </fieldset>
-    </form>
+    <div class="content">
+        <h1>Color Detector</h1>
+        <p>Simple js script for detecting opaque color by result color and opacity.</p>
+        <p>Source code: <a href="https://github.com/Hyperion/color-detector">GitHub</a></p>
+        <form>
+            <fieldset>
+                <label for="color">Color</label>
+                <input type="text" name="color" id="color"/>
+                <input type="color" class="color-selector"/>
+            </fieldset>
+            <fieldset>
+                <label for="bg-color">Background Color</label>
+                <input type="text" name="bg-color" id="bg-color"/>
+                <input type="color" class="color-selector"/>
+            </fieldset>
+            <fieldset>
+                <label for="opacity">Opacity</label>
+                <input name="opacity" type="number" id="opacity" min="0" max="1" step="0.05"/>
+            </fieldset>
+            <fieldset>
+                <label for="result">Original Color</label>
+                <input type="text" name="result" id="result" />
+                <input type="color"/>
+            </fieldset>
+            <fieldset>
+                <input type="button" id="calculate" value="Calculate"/>
+            </fieldset>
+        </form>
+    </div>
 </body>
 </html>
